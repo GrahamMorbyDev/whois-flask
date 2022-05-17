@@ -1,0 +1,14 @@
+.site-title {
+    color: #D9601A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    background: #008C8B;
+    color: white;
+}
+
+.btn-primary {
+    background: #1AD9D8;
+    border: #1AD9D8;
+}
