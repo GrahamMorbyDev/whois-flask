@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Who is Flask</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Poppins:wght@500&family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/site.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row h-100">
+            <div class="col-sm-12 my-auto text-center">
+                <h2 class="mb-2">{{ url }}</h2>
+                <br>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <ul class="list-group">
+                            <li class="list-group-item">Registrar: {{record.registrar}}</li>
+                            <li class="list-group-item">Whois Server: {{record.whois_server}}</li>
+                            <li class="list-group-item">Name Server 1: {{record.name_servers[0]}}</li>
+                            <li class="list-group-item">Name Server 2: {{record.name_servers[1]}}</li>
+                            <li class="list-group-item">Email: {{record.emails[0]}}</li>
+                            <li class="list-group-item">Name: {{record.name}}</li>
+                            <li class="list-group-item">Address: {{record.address}}</li>
+                            <li class="list-group-item">City: {{record.city}}</li>
+                          </ul>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

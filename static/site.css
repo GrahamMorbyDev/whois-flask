@@ -1,14 +1,34 @@
-.site-title {
-    color: #D9601A;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+html, body {
+    height: 100%;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
 }
 
-.card {
-    background: #008C8B;
+/* CSS only for examples not required for centering */
+.container {
+    height: 100%;
     color: white;
 }
 
-.btn-primary {
-    background: #1AD9D8;
-    border: #1AD9D8;
+.note {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    background: #eee;
+    max-width: 360px;
+    border: 1px dotted #bbb;
+}
+
+h1 {
+    font-size: 9.5rem
+}
+h2 {
+    font-size: 6.5rem;
+}
+
+.list-group {
+    color: black;
+    text-align: left;
 }
